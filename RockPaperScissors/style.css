@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+}
+header {
+  background-color: rgb(56, 66, 95);
+  text-align: center;
+  color: rgb(26, 26, 29);
+  padding: 30px;
+  color: rgb(185, 175, 156);
+  margin-bottom: 20px;
+}
+
+.choices {
+  text-align: center;
+}
+
+.selection {
+  background:none;
+  border: none;
+  margin: 20px;
+  padding: 30px;
+  font-size: 5em;
+  cursor: pointer;
+  transition: 100ms;
+  margin-left: 1em;
+}
+
+.selection:hover {
+  transform: scale(1.2);
+}
+
+body {
+  background-color: rgb(88, 66, 124);
+}
+
+#results {
+  text-align: center;
+}
